@@ -28,6 +28,22 @@ $(document).ready(function () {
         }
         $('body').append(fragment);
 
+        if (typeof Clipboard !== 'undefined') {
+            var clipboard = new Clipboard('.container > div', {
+                target: function (trigger) {
+                    logger.debug(trigger);
+                    logger.info('Selected');
+                    return trigger;
+                }
+            }).on('success', function (e) {
+                logger.debug(e);
+                $(e.target).select();
+                // e.clearSelection();
+            }).on('error', function (e) {
+                logger.error(e);
+            });
+        }
+
         // $('div').empty();
     });
 });
