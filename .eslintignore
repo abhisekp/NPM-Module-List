@@ -1,0 +1,6 @@
+node_modules/*
+js/vendor/*
+bin/*
+package.json
+*.min.js
+bower_components/*
