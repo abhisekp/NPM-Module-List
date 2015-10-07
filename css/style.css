@@ -1,0 +1,25 @@
+/* Styles go here */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 10px;
+}
+
+.container > div {
+  padding: 10px;
+}
+
+
+/* draw selected text in a paragraph white on black */
+
+.container > div::-moz-selection, .container > div::selection {
+  color: white;
+  background: black;
+}
