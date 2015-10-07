@@ -4,6 +4,7 @@ var NUMBER_OF_MODULES = 8;
 
 var log4js = log4javascript,
     logger = log4js.getLogger();
+logger.addAppender(new log4js.BrowserConsoleAppender());
 
 $(document).ready(function () {
 
