@@ -16,10 +16,20 @@ html, body {
   padding: 10px;
 }
 
+.container > div:hover {
+  cursor: default;
+  cursor: pointer;
+}
+
 
 /* draw selected text in a paragraph white on black */
 
-.container > div::-moz-selection, .container > div::selection {
+.container > div::-moz-selection {
+  color: white;
+  background: black;
+}
+
+.container > div::selection {
   color: white;
   background: black;
 }
