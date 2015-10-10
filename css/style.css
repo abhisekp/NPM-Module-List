@@ -16,6 +16,11 @@ html, body {
   padding: 10px;
 }
 
+.container > div:hover {
+  cursor: default;
+  cursor: pointer;
+}
+
 
 /* draw selected text in a paragraph white on black */
 
