@@ -2,7 +2,7 @@
   "name": "npm-module-list",
   "private": true,
   "dependencies": {},
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A small app that splits a long list of npm modules and makes it ready for copy paste using npm install command",
   "devDependencies": {
     "blanket": "^1.1.7",
