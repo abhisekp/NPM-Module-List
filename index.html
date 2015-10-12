@@ -13,6 +13,15 @@
 <body>
 
   <script src="//cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>
+
+  <!-- <script data-main="js/main" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.20/require.min.js"></script> -->
+  <script>
+    if (typeof requirejs === 'undefined') {
+      document.write('<script data-main="js/main" src="js/vendor/require.min.js"><\/script>');
+    }
+
+  </script>
+
 </body>
 
 </html>
