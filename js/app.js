@@ -15,9 +15,12 @@ define(function app(require) {
         logger && logger.info('jQuery Loaded');
     }
 
-    function init() {}
+    function init() {
+        require('UI').render();
+    }
 
     return {
         init: init
-    }
+    };
+
 });
