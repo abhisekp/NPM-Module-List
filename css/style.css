@@ -16,7 +16,7 @@ html, body {
   padding: 10px;
 }
 
-.container > div:hover {
+.container > div.selectable:hover {
   cursor: default;
   cursor: pointer;
 }
