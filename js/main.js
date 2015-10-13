@@ -30,4 +30,8 @@ requirejs.config({
 define(['jquery', 'log4js'], function ($, log4js) {
     this.log4js = log4js;
 
+    require(['app'], function (app) {
+        app.init();
+    });
+
 });
