@@ -11,7 +11,7 @@
     "coveralls": "^2.11.4",
     "csslint": "^0.10.0",
     "eslint": "^1.6.0",
-    "htmlhint": "^0.9.8",
+    "htmlhint": "^1.7.1",
     "js-beautify": "^1.5.10",
     "jsonlint": "^1.6.2",
     "mocha": "^2.3.3",
