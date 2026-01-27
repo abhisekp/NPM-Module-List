@@ -14,7 +14,7 @@
     "htmlhint": "^0.9.8",
     "js-beautify": "^1.5.10",
     "jsonlint": "^1.6.2",
-    "mocha": "^2.3.3",
+    "mocha": "^10.6.0",
     "mocha-lcov-reporter": "^1.0.0",
     "mocha-multi": "^0.7.2",
     "travis-cov": "^0.2.5"
